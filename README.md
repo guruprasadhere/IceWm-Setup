@@ -39,3 +39,6 @@ Recommeded additional softwares
 3.Idesk (Configuration file is added with this) --desktop icons
 4.sakura (conf file added) -minimal terminal
 5.Volwheel
+
+I have added Xsession file for better font rendering on laptop which can be used for any desktop environement. After update run
+xrdb merge /home/user/.Xsession 
