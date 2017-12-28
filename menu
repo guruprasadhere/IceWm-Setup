@@ -1,0 +1,65 @@
+# This is an example for IceWM's menu definition file.
+#
+# Place your variants in @CFGDIR@ or in $HOME/.icewm
+# since modifications to this file will be discarded when you
+# (re)install icewm.
+#
+
+
+menu "Accessories" /usr/share/pixmaps/applications-accessories.png 
+   {
+    prog Terminal /usr/share/pixmaps/xterm-color_48x48.xpm sakura -c 60 -r 20
+    prog beaver beaver beaver
+    prog Screenshot shutter shutter
+    prog Xpdf xpdf xpdf
+    prog Calculator galculator galculator
+    }
+
+menu "Engineering" /usr/share/pixmaps/applications-science.png 
+    {
+    prog Electric-VLSI /usr/share/pixmaps/electric.png java -jar /home/guru/Documents/Electric-VLSI/electric-9.07.jar
+    prog Qucs-S qucs-s qucs-s
+    }
+
+menu "Internet" /usr/share/pixmaps/applications-internet.png 
+    {
+    prog firefox firefox firefox
+    }
+
+menu "Office" /usr/share/pixmaps/applications-office.png 
+    {
+    prog Writer libreoffice-writer libreoffice --writer
+    prog Spread-sheet libreoffice-calc libreoffice --calc
+    prog Impress libreoffice-impress libreoffice --impress
+    prog LateX-Editor texstudio texstudio
+    prog Gummi gummi gummi
+    prog "Document Viewer" /usr/share/pixmaps/evince.png evince
+    }
+
+menu "Graphics" /usr/share/pixmaps/applications-graphics.png 
+    {
+    prog Paint kolourpaint kolourpaint
+    prog Inkscape inkscape inkscape
+    prog Xfig xfig /usr/bin/xfig
+    prog Xpaint /usr/share/pixmaps/XPaintIcon.xpm xpaint
+    }
+
+menu "Multimedia" /usr/share/pixmaps/applications-multimedia.png 
+    {
+    prog Video-Player vlc /usr/bin/vlc --started-from-file
+    prog Audio-Player audacious audacious
+    }
+    
+menu "System" /usr/share/pixmaps/applications-system.png 
+    {
+    prog "Package Manager" system-software-install gksudo pamac-manager
+    prog Htop htop xterm -e htop
+    prog LxTheme /usr/share/pixmaps/preferences-desktop-theme.png lxappearance
+    prog Obconf obconf obconf
+    prog Printer /usr/share/pixmaps/printer.png system-config-printer
+    #prog File-Manager /usr/share/pixmaps/filemanager.png pcmanfm
+    #menuprog "Desktop Apps" folder icewm-menu-fdo
+    #prog Task-Manager /usr/share/pixmaps/utilities-system-monitor.png xfce4-taskmanager
+    }   
+
+#menufile Tool_bar folder toolbar

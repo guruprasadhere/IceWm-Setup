@@ -1,0 +1,9 @@
+# This is an example for IceWM's toolbar definition file.
+#
+# Place your variants in @CFGDIR@ or in $HOME/.icewm
+# since modifications to this file will be discarded when you
+# (re)install icewm.
+#
+prog Terminal /usr/share/pixmaps/xterm-color_48x48.xpm sakura -c 60 -r 20
+prog "firefox" firefox firefox
+prog "Filemanager" /usr/share/pixmaps/filemanager.png pcmanfm
