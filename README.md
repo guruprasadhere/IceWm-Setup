@@ -42,3 +42,5 @@ Recommeded additional softwares
 
 I have added Xsession file for better font rendering on laptop which can be used for any desktop environement. After update run
 xrdb merge /home/user/.Xsession 
+
+Some Java applications on Icewm may not give best font renedering. So I have uploaded an environment file which will correct font render. For more refer Arch wiki on Java. Add the content of the environment file to /etc/environment. 
