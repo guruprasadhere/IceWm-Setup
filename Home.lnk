@@ -1,0 +1,9 @@
+table Icon
+  Caption: Home
+  ToolTip.Caption: My home
+  Icon: /usr/share/pixmaps/go-home.png
+  X: 65
+  Y: 17
+  Command[0]: pcmanfm /home/guru/
+end
+

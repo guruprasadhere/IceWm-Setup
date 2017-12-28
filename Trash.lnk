@@ -1,0 +1,9 @@
+table Icon
+  Caption: Trash
+  ToolTip.Caption: Trash
+  Icon: /usr/share/pixmaps/user-trash.png
+  X: 1265
+  Y: 617
+  Command[0]: pcmanfm trash:///
+end
+
